@@ -1,0 +1,11 @@
+
+send data；
+
+1，ajax；
+
+2，img:
+    const img = new Image()
+
+    img.src = "http://www.domainname.com/button-01.gif?x=1&y=2"
+
+3，sendBeacon

@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { HocComponent } from './components'
+import { HocComponent,CartList } from './components'
 export default class App extends Component {
 
     constructor() {
@@ -10,6 +10,7 @@ export default class App extends Component {
         return (
             <Fragment>
                 <HocComponent />
+                <CartList />
             </Fragment>
         )
     }

@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react'
-import propTypes from 'prop-types'
+// import propTypes from 'prop-types'
 export default function HeaderTitle(props) {
     return (
         <Fragment>

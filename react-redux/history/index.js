@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import App from './App'
 import store from './store'
-// console.log(store)
-// window.store = store
+//Provider react-redux提供的一个组件 
+import { Provider } from 'react-redux'
 ReactDom.render(
-   <App />,
+      < Provider store={store}>
+         <App />
+      </ Provider>,
    document.querySelector('#root')
 
 )
